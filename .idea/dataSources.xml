@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MariaDB - javaeeheverleeDB4@www.noelvaes.eu" uuid="b9eb5d22-bf3e-4cf2-96b6-ccad256117ad">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://www.noelvaes.eu/javaeeheverleeDB4</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="default@localhost" uuid="70efcdf4-49e3-4101-91db-f0a625163364">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:tcp://localhost:9092/default</jdbc-url>
+    </data-source>
+  </component>
+</project>
