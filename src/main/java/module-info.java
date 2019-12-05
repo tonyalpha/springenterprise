@@ -7,4 +7,8 @@ open module SpringEnterprise {
     requires spring.boot.starter.jdbc;
     requires spring.jdbc;
     requires java.sql;
+    requires java.persistence;
+    requires spring.boot.starter.data.jpa;
+    requires spring.tx;
+    requires net.bytebuddy;
 }

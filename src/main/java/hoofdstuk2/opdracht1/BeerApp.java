@@ -8,8 +8,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class BeerApp {
     public static void main(String[] args) {
         ConfigurableApplicationContext ctx = SpringApplication.run(BeerApp.class, args);
-        BeerDao beerDAO = ctx.getBean("beerDao", BeerDao.class);
-        System.out.println(beerDAO.getBeerById(20));
-        beerDAO.setStock(10, 200);
+        BeerRepository beerRepository = ctx.getBean("beerRepository", BeerRepository.class);
+        Beer beer = beerRepository.getBeerById(20);
+        System.out.println(beer);
     }
 }
